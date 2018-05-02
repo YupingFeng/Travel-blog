@@ -6,7 +6,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package yuping.co
+ * @package yuping.co/wp
  */
 
 ?>
