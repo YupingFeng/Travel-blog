@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Storymaker</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <!--  ====================== Header ========================== -->
+
+    <header>
+
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+
+            <div class="container-fluid">
+
+                <div class="navbar-header">
+
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarNav">
+
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+
+                    </button>
+
+                    <a class="navbar-brand">Storymaker</a>
+
+                </div>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+
+                    <ul class="nav navbar-nav navbar-right">
+                    
+                    	<li>
+                            <a href="index.html">START HERE</a>
+                        </li>
+
+                        <li>
+                            <a href="about.html">ABOUT</a>
+                        </li>
+
+                        <li>
+                            <a href="destinations.html">DESTINATIONS</a>
+                        </li>
+
+                        <li>
+                            <a href="blog.html">BLOG</a>
+                        </li>
+
+                        <li>
+                            <a href="resources.html">RESOURCES</a>
+                        </li>
+
+                        <li>
+                            <a href="contact.html">CONTACT</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+        </nav>
+
+    </header>
+
+    <!--  ====================== Main Image ========================== -->
+
+    <div id="finland-image" class="jumbotron text-center">
+
+        <h1 class="leanFont title"><strong>Finland</strong></h1>
+        
+    </div>
+
+    <!--  ====================== Posts ========================== -->
+
+    <div class="container post">
+           
+            <div class="row mt-3">
+
+                    <div class="col-sm-6 col-md-4">
+                        <a class="thumbnail" data-toggle="modal" data-target=".bs-example-modal-lg">
+                            <img src="assets/images/sibelius.jpg" alt="post1" id="finlandpost">
+                        </a>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4">
+                        <a class="thumbnail">
+                            <img src="assets/images/finsnow.jpg" alt="post2" id="finlandpost">
+                        </a>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4">
+                        <a class="thumbnail">
+                            <img src="assets/images/icehockey.jpg" alt="post3" id="finlandpost">
+                        </a>
+                    </div>
+
+            </div>                
+  
+    </div>
+
+    <!--  ====================== Modal Sibelius ========================== -->
+
+    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+
+        <div class="modal-dialog modal-lg" role="document">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <button type="button" class="close" data-dismiss="modal">
+
+                        <span>&times;</span>
+
+                    </button>
+
+                    <div>
+                        <ul class="list-inline">
+                            <li><span class="glyphicon glyphicon-user" aria-hidden="true"></span></li>
+                            <li><h4 class="modal-title"><strong>Yuping Feng</strong></h4></li>
+                            <li><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span></li>
+                            <li><h3 class="modal-title"><h6>Helsinki</h6></li>
+                        </ul>
+                    </div>
+
+
+                </div>
+
+                <div class="modal-body">
+
+                            <div class="center-block">
+                                <img src="assets/images/sibelius.jpg">
+                            </div>
+
+                </div>
+
+                <div class="modal-footer">
+
+                    <div>
+                        <p>The Sibelius Monument is located in the capital of Finland, Helsinki. I was went there in the Autumn of 2017. It's a quiet and fancy block, not so far from city center.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--  ====================== Footer ========================== -->
+
+    <footer>
+
+        <div class="comtainer text-center">
+
+            <div class="row">
+
+                    <P>&copy; Storymaker 2018 </P>                
+
+                    <nav>
+                        
+                        <ul class="list-inline">
+
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="about.html">ABOUT</a></li>
+                            <li><a href="destinations.html">DESTINATIONS</a></li>
+                            <li><a href="blog.html">BLOG</a></li>
+                            <li><a href="resources.html">RESOURCES</a></li>
+                            <li><a href="contact.html">CONTACT</a></li>
+
+                        </ul>
+
+                    </nav>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
