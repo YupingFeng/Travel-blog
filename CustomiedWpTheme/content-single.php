@@ -5,8 +5,8 @@
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
  * @package yuping.co/wp
- 
-   单个博客页面 博客部分的内容
+ * 
+   single blog page, the detailed content of blog
  */
 
 ?>
