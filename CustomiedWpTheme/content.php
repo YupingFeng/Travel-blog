@@ -5,8 +5,8 @@
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
  * @package yuping.co/wp
- 
-  博客概览页面 主内容部分
+ *
+ * 博客概览页面 主内容部分
  */
 
 ?>
