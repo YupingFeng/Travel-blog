@@ -9,7 +9,7 @@
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
- * @package yuping.co
+ * @package yuping.co/wp
  */
 
 get_header(); ?>
